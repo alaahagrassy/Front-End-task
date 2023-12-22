@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.spot {
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 953px;
+}
+.human-body {
+  position: relative;
+  display: inline;
+  margin-top: 10px;
+}
+
+.Bone-Marrow {
+  position: absolute;
+  top: 363px;
+  left: 83px;
+  width: 31px;
+  height: 32px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.Bones {
+  position: absolute;
+  top: 406px;
+  left: 86px;
+  width: 31px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.Joints {
+  position: absolute;
+  top: 450px;
+  left: 88px;
+  width: 31px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.muscles {
+  position: absolute;
+  top: 398px;
+  left: 168px;
+  width: 31px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.nerves {
+  position: absolute;
+  top: 604px;
+  left: 154px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.skin {
+  position: absolute;
+  top: 300px;
+  left: 229px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: rgb(31, 153, 213);
+}
+
+.kidneys {
+  position: absolute;
+  top: 221px;
+  left: 151px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.heart {
+  position: absolute;
+  top: 140px;
+  left: 139px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.thyroid {
+  position: absolute;
+  top: 86px;
+  left: 118px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.teeth {
+  position: absolute;
+  top: 52px;
+  left: 118px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.retina {
+  position: absolute;
+  top: 22px;
+  left: 130px;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+.blood-vessels {
+  position: absolute;
+  top: 212px;
+  left: 34px;
+  width: 31px;
+  height: 32px;
+  border-radius: 50%;
+  fill: rgb(31, 153, 213);
+  background-color: rgb(31, 153, 213);
+}
+
+.btn-spot {
+  position: absolute;
+  background-color: #d0191f;
+  opacity: 147;
+  animation: pulse 1000ms ease-out infinite;
+  /* display: none; */
+}
+@keyframes pulse {
+  100% {
+    opacity: 0.7;
+    transform: scale(2);
+  }
+}
+
+.changeB {
+  background-color: #d0191f !important;
+}
